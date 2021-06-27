@@ -188,11 +188,12 @@ html, body {
 }
 /* Giro infinito */
 .GiroInfinito{
-    -webkit-animation: spin 1s linear infinite;
+    /* -webkit-animation: spin 1s linear infinite;
     -moz-animation: spin 1s linear infinite;
-    animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite; */
     animation-name: GiroInfinito;
     animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 @keyframes GiroInfinito {
     from{
