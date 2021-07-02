@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/Veronika.css">
+    <script src='../js/index.js'></script>
     <title>Album de animaciones</title>
 </head>
 
@@ -20,20 +21,38 @@
                     <svg viewBox="0 0 300 150"
                     preserveAspectRatio="none" style="height: 100%; width: 100%;">
                     <path d="M0.00,45.158 C149.40,100.00 220.93,33.05 500.00,69.98 L300.00,0.00 L0.00,0.00 Z"
-                        style="stroke: none; fill: #FF0000;"></path>
+                        style="stroke: none; fill: #C3EBFF;"></path>
                 </svg>
                 <h1 class="tituloJuan">Album de animaciones en css</h1>
             </div>
         </div>
-        <div class="Menu">
+        <div class="Menu"> <!--Menu-->
             <ul>
-                <li>Giros</li>
-                <li>Transiciones</li>
-                <li>Zoom</li>
-                <li>Animaciones</li>
+                <li><a href="#Giros">Giros</a></li>
+                <li><a href="#transiciones">Transiciones</a></li>
+                <li><a href="#Zoom">Zoom</a></li>
+                <li><a href="#Animacion">Animaciones</a></li>
             </ul>
         </div>
-        <h2>Transiciones</h2>
+        <h2 class="titulos">Animaciones</h2>
+        <section id="Animacion">    <!-- section animaciones -->
+            <div class="card2 carga">   <!-- Loader -->
+                <div class="punto"></div>
+            </div>
+            <div class="lunasconTexto">
+                <div class="lunas"><div class="card2 circulo2"> <!--Estados de la luna-->
+            <div class="card2 circulo"></div></div>
+            </div>
+            <div class="tarjetaNombre"><h3 id="QuetamañoWapa">Faces de la luna</h3></div></div>
+            <div class="card2 mundo">   <!-- Mundo giratorio -->
+            </div>
+            <!-- <section class="animaciones">   Animación Profe
+            <div class="TitleContainer">
+                <h1 id="TitleAnimation">CSS & HTML</h1>
+            </div>
+            <div class="card2"></div> -->
+        </section>
+         <h2 class="titulos">Transiciones</h2>
         <section id="transiciones">
             <div class="card2 sliderRigth">
                 <img class="imagenTuerca" src="../utils/images/nut.svg">
@@ -52,7 +71,7 @@
             <h4>Llegada desde abajo</h4>
             </div>
         </section>
-        <h2>Giros</h2>
+        <h2 class="titulos">Giros</h2>
         <section id="Giros">
             <div class="card2 Giro_completo">
                 <img class="imagenTuerca" src="../utils/images/nut.svg">
@@ -82,9 +101,17 @@
                 <img class="imagenTuerca" src="../utils/images/nut.svg">
             </div><h4>Giro infinito</h4></div>
         </section>
-
-
-
+        <h2 class="titulos">Zoom</h2>
+        <section id="Zoom">
+            <div class="card2 zoom_in">
+                <img class="imagenTuerca" src="../utils/images/nut.svg">
+            <h4>Zoom In</h4>
+            </div>
+            <div class="card2 zoom_on">
+                <img class="imagenTuerca" src="../utils/images/nut.svg">
+            <h4>Zoom Out</h4>
+            </div>
+        </section>
 
 
 <!-- 

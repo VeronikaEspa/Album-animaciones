@@ -1,7 +1,7 @@
 body{
     display: flex;
     margin-top: 300px;
-    background-color:salmon;
+    background-color:#000042;
     width: 100%;
     height: 100%;
     justify-self: center;
@@ -19,8 +19,8 @@ button{
     width: 500px;
     height: 180px;
     font-size: 20px;
-    color:  snow ;
-    background-color: rgb(255, 176, 167);
+    color:  #C3EBFF ;
+    background-color: #0092F5;
     cursor: pointer;
     border: none;
 }
